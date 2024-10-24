@@ -65,8 +65,9 @@ To run this project, you'll need:
     spring.ai.openai.api-key=your_openai_api_key
     ```
 
-2. Run the Spring Boot app:
+2. Build and run the Spring Boot app:
     ```bash
+    mvn clean install
     ./mvnw spring-boot:run
     ```
 
