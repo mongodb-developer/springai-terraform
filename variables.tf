@@ -38,5 +38,4 @@ variable "db_password" {
 variable "ip_address" {
   description = "IP address to whitelist"
   type        = string
-  default     = "0.0.0.0/0"  # For development, allow all IPs. Change this for production use.
 }
